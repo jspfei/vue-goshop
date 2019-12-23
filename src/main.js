@@ -5,6 +5,9 @@ import App from './App'
 import router from './router'
 
 Vue.config.productionTip = false
+Vue.directive("jspang", function (el, binding, vnode) {
+  el.style = "color:" + binding.value;
+});
 
 /* eslint-disable no-new */
 new Vue({
@@ -12,4 +15,4 @@ new Vue({
   router,
   components: { App },
   template: '<App/>'
-})
+}) 

@@ -1,5 +1,17 @@
 <template>
-  <div>{{msg}}</div>
+  <div>
+    <ul class="list">
+      <li>
+        <router-link to="/class/example1">内部指令</router-link>
+      </li>
+      <li>
+        <router-link to="/class/example2">全局API</router-link>
+      </li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
 </template>
 
 <script>
@@ -13,4 +25,10 @@ export default {
 </script>
 
 <style scoped>
+.list {
+  list-style-type: none;
+}
+.list > li {
+  font-size: 30px;
+}
 </style>

@@ -7,7 +7,9 @@
       <li>
         <router-link to="/class/example2">全局API</router-link>
       </li>
-      <li></li>
+      <li>
+        <router-link to="/class/example3">选项</router-link>
+      </li>
       <li></li>
       <li></li>
     </ul>

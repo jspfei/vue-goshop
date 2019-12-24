@@ -13,7 +13,9 @@
       <li>
         <router-link to="/class/example4">实例和内置组件</router-link>
       </li>
-      <li></li>
+      <li>
+        <router-link to="/class/example5">Vue-router免费视频教程</router-link>
+      </li>
     </ul>
   </div>
 </template>

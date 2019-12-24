@@ -10,7 +10,9 @@
       <li>
         <router-link to="/class/example3">选项</router-link>
       </li>
-      <li></li>
+      <li>
+        <router-link to="/class/example4">实例和内置组件</router-link>
+      </li>
       <li></li>
     </ul>
   </div>

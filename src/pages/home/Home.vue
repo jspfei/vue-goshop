@@ -16,6 +16,9 @@
       <li>
         <router-link to="/class/example5">Vue-router免费视频教程</router-link>
       </li>
+       <li>
+        <router-link to="/class/example6">vuex免费视频教程</router-link>
+      </li>
     </ul>
   </div>
 </template>
